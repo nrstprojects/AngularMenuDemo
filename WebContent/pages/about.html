@@ -1,38 +1,20 @@
 <!-- Site banner -->
     <div class="banner">
         <div class="container">
-            <div class="col-md-3">
-            <h1>About us page</h1>
-
             
-            </div>
-            <div class="col-md-9">
-                <p>Follow me At:</p>
-                 <a href="https://www.facebook.com/TryCatchClasses/" class="btn btn-success">FACEBOOK</a>
-                  <a href="https://plus.google.com/+TryCatchClassesMumbai" class="btn btn-success">GOOGLE PLUS</a>
-                   <a href="https://twitter.com/trycatchclasses" class="btn btn-success">TWITTER</a>
-                   
-                   <style>
-                        #response{display: none}
-                        div #fb, div #gp, div #tw{display: inline-block;}
-                        #fb{width: 180px;}
-                        #gp{width:  100px;}
-                        #tw{width: 180px;}
-                    </style>
-                    <div>
-                        <div id="fb">
-							<div class="fb-like" data-href="https://www.facebook.com/TryCatchClasses/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-						</div>
-                        <div id="tw">
-                            <a href="https://twitter.com/trycatchclasses" class="twitter-follow-button" data-show-count="false" data-size="medium">Follow @trycatchclasses</a>
-                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                        </div>
-                        <div id="gp">
-                            <!-- Place this tag in your head or just before your close body tag. -->
-                           <script src="https://apis.google.com/js/platform.js" async defer></script>
-                           <!-- Place this tag where you want the +1 button to render. -->
-                           <div class="g-plusone" data-href="https://plus.google.com/+TryCatchClassesMumbai"></div>
-                       </div>
+            
+            <div class="table-responsive"  ng-controller="DataController as dataCtrl">
+            
+            	<!-- <table-view tableApi=vm.tableApi></table-view> -->
+            	<table style="border: 1px solid black;" class="table table-condensed">
+  					<tr style="border: 1px solid black;">
+      					<th style="border: 1px solid black;" ng-repeat="(header,value) in dataCtrl.tableData[0]">{{header}}</th>
+  					</tr>
+  					<tr style="border: 1px solid black;" ng-repeat="(header,value) in dataCtrl.tableData">
+    					<td style="border: 1px solid black;" ng-repeat="(header,value) in value">{{value}}</td>
+  					</tr>
+				</table>
+                      </div>
                     </div>
             </div>
             
