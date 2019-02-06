@@ -1,0 +1,81 @@
+[
+{
+   "type": "Books",
+   "list": [{
+        "serialNo" : "1",
+   		"title" : "AngularJS",
+   		"url" : "",
+   		"image" : "",
+   		"description" :""
+   		},
+   		{
+   		"serialNo" : "2",
+   		"title" : "RestFuk Web Services",
+   		"url" : "",
+   		"image" : "",
+   		"description" :""
+   		},
+   		{
+   		"serialNo" : "3",
+   		"title" : "Spring MVC",
+   		"url" : "",
+   		"image" : "",
+   		"description" :""
+   		},
+   		{
+   		"serialNo" : "4",
+   		"title" : "HTML5",
+   		"url" : "",
+   		"image" : "",
+   		"description" :""
+   		},
+   		{
+   		"serialNo" : "5",
+   		"title" : "CSS3",
+   		"url" : "",
+   		"image" : "",
+   		"description" :""
+   		}
+   		]
+},
+{
+    "type": "Products",
+    "list": [{
+        "serialNo" : "1",
+   		"title" : "Apple",
+   		"url" : "",
+   		"image" : "",
+   		"description" :""
+   		},
+   		{
+   		"serialNo" : "2",
+   		"title" : "Samsung",
+   		"url" : "",
+   		"image" : "",
+   		"description" :""
+   		},
+   		{
+   		"serialNo" : "3",
+   		"title" : "Micromax",
+   		"url" : "",
+   		"image" : "",
+   		"description" :""
+   		},
+   		{
+   		"serialNo" : "4",
+   		"title" : "Redmi",
+   		"url" : "",
+   		"image" : "",
+   		"description" :""
+   		},
+   		{
+   		"serialNo" : "5",
+   		"title" : "RealMe",
+   		"url" : "",
+   		"image" : "",
+   		"description" :""
+   		}
+   		]
+}
+
+]
